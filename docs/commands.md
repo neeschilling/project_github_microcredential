@@ -98,7 +98,31 @@ Attach branch
 
 `git switch -c <new_branch_name>`
 
+## Alternative history
 
+Make new branch
+
+`git branch <branch_name>`
+
+Go to specific branch
+
+`git checkout <branch_name>`
+
+Merge branches
+
+`git merge <target_branch_name>`
+
+Remove branch
+
+`git branch -d <branch_name>`
+
+## Tagging
+
+To highlight good versions
+
+`git tag <name>`
+
+`git push --tags`
 
 
 
