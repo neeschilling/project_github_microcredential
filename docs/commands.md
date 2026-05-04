@@ -1,5 +1,25 @@
 # Commonly used commands in git and GitHub
 
+## Adding a ssh key for a new computer you wanna use Github on
+
+1. Create a new ssh key for the new computer
+
+`ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+2. copy the public ssh key to clipboard
+
+3. Paste it into the ssh key section on Github
+
+## Configurate git in new repository
+
+1. Give username
+
+git config --global user.name "Your Name"
+
+2. Give E-mail adress
+
+git config --global user.email "email"
+
 ## When you start a new repository locally 
 
 1. Make a folder where the project will be stored 
