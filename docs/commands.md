@@ -14,11 +14,11 @@
 
 1. Give username
 
-git config --global user.name "Your Name"
+`git config --global user.name "Your Name"`
 
 2. Give E-mail adress
 
-git config --global user.email "email"
+`git config --global user.email "email"`
 
 ## When you start a new repository locally 
 
@@ -59,4 +59,48 @@ If you accidentally added a wrong address, you can remove with this command
 3. Push your changes to GitHub while setting upstream
 
 `git push --set-upstream origin <main_branch_name>`
+
+## Check git status
+
+Shows branch you are in and potential untracked changes
+
+`git status`
+
+Shows history of all changes together with ID
+
+`git log`
+
+Compare commits
+
+`git diff`
+
+`git show`
+
+## Recover to a previous state
+
+Recover to a previous state: Removes changes (means also deleting IDs so you can no longer access)
+
+`git reset`
+
+Reverts to previous state: Adds revert as a new head which means all changes are still tracked
+
+`git revert`
+
+Rewrite last commit message
+
+`git commit -amend`
+
+Go to a specific ID (!Warning tracks will not be saved unless you attach the new branch to main)
+
+`git checkout <commit_ID>`
+
+Attach branch
+
+`git switch -c <new_branch_name>`
+
+
+
+
+
+
 
