@@ -10,7 +10,7 @@ Git is a version control software to track changes in files over times which run
 
 ## Commit messages
 
-Adding a commit message is obligated, without it you cannot commit. **Adding conflict 1**
+Adding a commit message is obligated, without it you cannot commit. **Adding conflict**
 
 Be as descriptive as you can. You can use the following questions to write a meaningful message:
 
