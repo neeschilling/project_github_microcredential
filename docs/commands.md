@@ -130,5 +130,6 @@ Save temporarily uncommitted changes without creating a commit
 
 `git stash`
 
+Modify you most recent commit without creating a new one (used to fix commit message, remove unwanted files or add forgotten files)
 
-
+`git commit --amend`
