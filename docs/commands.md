@@ -124,7 +124,11 @@ To highlight good versions
 
 `git push --tags`
 
+## Other git commands
 
+Save temporarily uncommitted changes without creating a commit
+
+`git stash`
 
 
 
