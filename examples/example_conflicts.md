@@ -1,6 +1,8 @@
 # Examples of conflicts
 Document examples of conflicts and their resolution here. 
 
+*Hint: git usually tells you what needs to be done when an issue arises. Make sure to read the output in the terminal and follow the steps suggested.*
+
 ## Example 1
 
 ### Conflict situation
